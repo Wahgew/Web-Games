@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<!-- Peter Madin -->
+<!-- 0.0.1 6/25/23 -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="x-icon" href="RPSManTransparent.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rock Paper Scissors</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id = "gameDiv">
+            <div class = "gameTextContainer">
+                <h1 class = "gameText" id = "playerText"> Player:</h1>
+            </div>
+
+            <div class = "gameTextContainer">
+                <h1 class = "gameText" id = "computerText"> Computer: </h1>
+            </div>
+
+            <div class = "gameTextContainer">
+                <h1 class = "gameText" id = "winnerText"> Winner: </h1>
+            </div>
+
+            <div class = "buttonContainer">
+                <button class = "buttonChoice">ROCK</button>
+                <img src="realrocktransparent.png" alt="Rock" class = "buttonImage" id="rockImage">
+            </div>
+
+            <div class = "buttonContainer">
+                <button class = "buttonChoice">PAPER</button>
+                <img src="papertransparent.png" alt="Rock" class = "buttonImage">
+            </div>
+
+            <div class = "buttonContainer">
+                <button class = "buttonChoice">SCISSORS</button>
+                <img src="ScissorsTransparent.png" alt="Rock" class = "buttonImage">
+            </div>
+        </div>
+        
+        <script src="RPSLogic.js"></script>
+    </body>
+</html>
